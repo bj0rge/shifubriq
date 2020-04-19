@@ -46,5 +46,8 @@ The other player is able to launch the same command to join it, and the winner s
 `yarn dev` to start the project with a watcher
 
 
+## License
+This project is provided under Beerware license (see [LICENSE.md](LICENSE.md))
+
 ##### Note
 Inspired from [nmalzieu/shifubriq](https://github.com/nmalzieu/shifubriq)
