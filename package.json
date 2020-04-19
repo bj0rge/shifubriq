@@ -1,0 +1,32 @@
+{
+  "name": "shifubriq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "babel-node build/index.js --presets es2015,stage-2",
+    "dev": "node $(which tsc-watch) -b ./tsconfig.json --noClear --onSuccess 'yarn start'",
+    "test": "tsc && jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.11.1",
+    "axios": "^0.19.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "briq-api": "^0.0.6",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.9.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.3.0",
+    "prettier": "2.0.4",
+    "tsc-watch": "4.2.3",
+    "typescript": "^3.8.3"
+  }
+}
